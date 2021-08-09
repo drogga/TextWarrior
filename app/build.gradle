@@ -3,6 +3,10 @@
 apply plugin: 'com.android.application'
 
 android {
+      lintOptions {
+          abortOnError false
+      }
+      
     compileSdkVersion 29
     buildToolsVersion '30.0.3'
 
